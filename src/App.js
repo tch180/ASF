@@ -8,6 +8,9 @@ import $ from "jquery";
 
 import Homepage from './home/Homepage';
 import NavBar from '../src/NavBar';
+import COC from '../src/coc';
+import streams from '../src/streams';
+import admins from '../src/admins';
 
 
 
@@ -25,7 +28,9 @@ function App() {
             <Switch>     
 
             <Route exact path='/' component={Homepage}/>
-            {/* <Route exact path='/COC' component={COC}/> */}
+            <Route exact path='/COC' component={COC}/>
+            <Route exact path='/streams' component={streams}/>
+            <Route exact path='/admins' component={admins}/>
 
             </Switch>
           </Router>
