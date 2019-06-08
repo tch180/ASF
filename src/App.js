@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, {component} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 import 'bootstrap';
-import $ from "jquery";
+// import $ from "jquery";
 
 
 import Homepage from './home/Homepage';
