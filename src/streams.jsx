@@ -39,7 +39,7 @@ class streams extends Component {
               <div className="card-body">
                 <h5 className="card-title">BlackieChan009</h5>
               </div>
-              <div className="card-body">
+              <div className="card-body" style={{color:"white"}}>
                 <a href="https://www.twitch.tv/blackchina009" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
@@ -49,7 +49,7 @@ class streams extends Component {
               <div className="card-body">
                 <h5 className="card-title">StepJr</h5>
               </div>
-              <div className="card-body">
+              <div className="card-body" style={{color:"white"}}>
                  <a href="https://www.twitch.tv/stepjr0" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
@@ -60,7 +60,7 @@ class streams extends Component {
               <div className="card-body">
                 <h5 className="card-title">Iceman8706</h5>
               </div>
-              <div className="card-body">
+              <div className="card-body" style={{color:"white"}}>
                 <a href="https://www.twitch.tv/iceman8706" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
@@ -80,14 +80,14 @@ class streams extends Component {
             <div className="card-body">
               <h5 className="card-title">SgtSmackaho</h5>
             </div>
-            <div className="card-body">
+            <div className="card-body" style={{color:"white"}}>
               <a href="https://www.twitch.tv/sgt__smackaho/" target="_blank" className="card-link btn btn-success">Stream</a>
             </div>
           </div>
 
           <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
             <img src={patty} className="card-img-top" alt="streamer pic will go here " />
-            <div className="card-body">
+            <div className="card-body" style={{color:"white"}}>
               <h5 className="card-title">PattyMacAttack</h5>
             </div>
             <div className="card-body">
