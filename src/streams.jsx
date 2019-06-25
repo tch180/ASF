@@ -40,7 +40,7 @@ class streams extends Component {
                 <h5 className="card-title">BlackieChan009</h5>
               </div>
               <div className="card-body">
-                <button href="https://www.twitch.tv/blackchina009" className="card-link btn btn-success">Stream</button>
+                <a href="https://www.twitch.tv/blackchina009" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ class streams extends Component {
                 <h5 className="card-title">StepJr</h5>
               </div>
               <div className="card-body">
-                 <button href="https://www.twitch.tv/stepjr0" className="card-link btn btn-success">Stream</button>
+                 <a href="https://www.twitch.tv/stepjr0" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
 
@@ -61,7 +61,7 @@ class streams extends Component {
                 <h5 className="card-title">Iceman8706</h5>
               </div>
               <div className="card-body">
-                <button href="https://www.twitch.tv/iceman8706" className="card-link btn btn-success">Stream</button>
+                <a href="https://www.twitch.tv/iceman8706" target="_blank" className="card-link btn btn-success">Stream</a>
               </div>
             </div>
             </div>
@@ -81,7 +81,7 @@ class streams extends Component {
               <h5 className="card-title">SgtSmackaho</h5>
             </div>
             <div className="card-body">
-              <button href="https://www.twitch.tv/sgt__smackaho/" className="card-link btn btn-success">Stream</button>
+              <a href="https://www.twitch.tv/sgt__smackaho/" target="_blank" className="card-link btn btn-success">Stream</a>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ class streams extends Component {
               <h5 className="card-title">PattyMacAttack</h5>
             </div>
             <div className="card-body">
-              <button href="https://www.twitch.tv/pattymacattack/" className="card-link btn btn-success">Stream</button>
+              <a href="https://www.twitch.tv/pattymacattack/" target="_blank" className="card-link btn btn-success">Stream</a>
             </div>
           </div>
 
