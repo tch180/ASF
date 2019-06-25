@@ -1,13 +1,21 @@
+
 import React, { Component } from 'react';
+import ice from '../src/assets/images/iceman.jpeg';
+import blackiechane from '../src/assets/images/blackiechan.png';
+import patty from '../src/assets/images/pattymac.png';
+import step from '../src/assets/images/step1.png';
+import smack from '../src/assets/images/smackaho.jpg';
 
-
-
+import './streams.scss'
 
 
 class streams extends Component {
+  
+ 
 
     render() {
 
+      
     
 
         return (
@@ -24,23 +32,84 @@ class streams extends Component {
             </div>
 
 
+            <div className="streamer-profiles container-fluid row" style={{display:"flex", justifyContent:"space-around"}}>
 
-
-            <div className="card mt-5" style={{ width: "18rem" }}>
-              {" "}
-              <img src="..." className="card-img-top" alt="..." />
+            <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
+              <img src={blackiechane} className="card-img-top" alt="streamer pic will go here " />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and
-                  make up the bulk of the card's content.
-                </p>
+                <h5 className="card-title">BlackieChan009</h5>
               </div>
               <div className="card-body">
-                {/* <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a> */}
+                <button href="#" className="card-link btn btn-success">Stream</button>
               </div>
             </div>
+
+            <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
+              <img src={step} className="card-img-top" alt="streamer pic will go here " />
+              <div className="card-body">
+                <h5 className="card-title">StepJr</h5>
+              </div>
+              <div className="card-body">
+                 <button href="#" className="card-link btn btn-success">Stream</button>
+              </div>
+            </div>
+
+
+            <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
+              <img src={ice} className="card-img-top" alt="streamer pic will go here " />
+              <div className="card-body">
+                <h5 className="card-title">Iceman8706</h5>
+              </div>
+              <div className="card-body">
+                <button href="#" className="card-link btn btn-success">Stream</button>
+              </div>
+            </div>
+            </div>
+
+            <div className="jumbotron  jumbotron-fluid embed-responsive embed-responsive-21by9 mb-2 mt-5">
+            <iframe align='center' width="800" height="400" src="https://www.youtube.com/embed/H-Ot4_rIBPA" frameBorder="1" 
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowFullScreen>
+                  </iframe>
+            </div>
+            
+                        
+                      <div className="streamer-profiles container-fluid row" style={{display:"flex", justifyContent:"space-around"}}>
+
+          <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
+            <img src={smack} className="card-img-top" alt="streamer pic will go here " />
+            <div className="card-body">
+              <h5 className="card-title">SgtSmackaho</h5>
+            </div>
+            <div className="card-body">
+              <button href="#" className="card-link btn btn-success">Stream</button>
+            </div>
+          </div>
+
+          <div className="card mt-5 bg-dark" style={{ width: "18rem" }}>
+            <img src={patty} className="card-img-top" alt="streamer pic will go here " />
+            <div className="card-body">
+              <h5 className="card-title">PattyMacAttack</h5>
+            </div>
+            <div className="card-body">
+              <button href="#" className="card-link btn btn-success">Stream</button>
+            </div>
+          </div>
+
+
+          
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
           </div>

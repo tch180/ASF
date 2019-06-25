@@ -22,7 +22,7 @@ class Homepage extends Component {
             <div>
 
                 <div style={{backgroundColor:"black" }}> 
-                    <div className="Alliance-Name" style={{backgroundColor:"white",fontSize:"5vw", fontWeight:"bold", margin: "0 auto",  textAlign:"Center", position:"absolute", mixBlendMode:"screen", top:"25%",  }}>Allied Shinobi Forces</div>      
+                    <div className="Alliance-Name" style={{backgroundColor:"white",fontSize:"5vw", fontWeight:"bold", margin: "0 auto",  textAlign:"Center", position:"absolute", mixBlendMode:"screen", top:"15%", left:"25%"  }}>Allied Shinobi Forces</div>      
                     <img className="header  mx-5" src={shadow}  style={{width:'95%', backgroundColor:'black'}}alt=""/>
                 </div>
 
@@ -30,7 +30,7 @@ class Homepage extends Component {
                 <h1 style={{color:"white", textAlign:"Center",}}>"No matter how hard the mission, we will probably still die."</h1>
                 </div>
 
-                <div className="parallax2" style={{ backgroundColor:"black",height:"600px" }}> 
+                <div className="clan-quote" style={{ backgroundColor:"black",height:"600px" }}> 
 
                     <h1 className="clan-q" >
                         When the  Red War began <span>they came to us.</span> <br/> When the Dreaming City fell under a curse<br/> <span>we were granted access to cleanse their city.</span> <br/> 
